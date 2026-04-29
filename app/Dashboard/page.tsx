@@ -1,5 +1,7 @@
+import DashBoard from "../_features/dashboard/DashBoard";
+
 function page() {
-  return <div>this is the dash board</div>;
+  return <DashBoard />;
 }
 
 export default page;

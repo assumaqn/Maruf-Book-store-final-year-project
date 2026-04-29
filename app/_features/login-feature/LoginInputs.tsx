@@ -54,7 +54,7 @@ export function LoginInputs() {
 
             <button
               type="submit"
-              className="w-full bg-[#0f2a2a] text-white py-3 text-sm tracking-widest uppercase hover:opacity-90 transition cursor-pointer"
+              className=" w-full bg-[#0f2a2a] text-white py-3 text-sm tracking-widest uppercase hover:opacity-90 transition cursor-pointer"
             >
               Login
             </button>
