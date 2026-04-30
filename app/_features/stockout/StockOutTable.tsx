@@ -1,6 +1,5 @@
-import TableRow from "./TableRow";
-
-export const transactions = [
+import TableRow from "@/app/_components/TableRow";
+const transactions = [
   {
     id: 1,
     name: "The Silent Patient",
@@ -43,7 +42,7 @@ export const transactions = [
   },
 ];
 
-function TableHeader() {
+function StockOutTable() {
   return (
     <div className="bg-white  shadow-sm border border-slate-200 overflow-hidden">
       <table className="w-full border-collapse">
@@ -70,4 +69,4 @@ function TableHeader() {
   );
 }
 
-export default TableHeader;
+export default StockOutTable;

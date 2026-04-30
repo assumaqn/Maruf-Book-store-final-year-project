@@ -3,22 +3,22 @@ import { FaAccusoft, FaBook, FaDartLang } from "react-icons/fa6";
 const stat = [
   {
     icon: <FaBook size={21} />,
-    name: "Total Titles",
-    numeber: "4,281",
+    name: "Total Catalog",
+    numeber: "12,482",
   },
   {
     icon: <FaAccusoft size={21} />,
-    name: "Active Categories",
-    numeber: "12",
+    name: "Monthly Restocks",
+    numeber: "842",
   },
   {
     icon: <FaDartLang size={21} />,
-    name: "Low Stock Alert",
-    numeber: "12 Items",
+    name: "Pending Orders",
+    numeber: "14",
   },
 ];
 
-function BookingStats() {
+function StockinFooter() {
   return (
     <div className="flex justify-between items-center  mt-15">
       {stat.map((item) => (
@@ -39,4 +39,4 @@ function BookingStats() {
   );
 }
 
-export default BookingStats;
+export default StockinFooter;
