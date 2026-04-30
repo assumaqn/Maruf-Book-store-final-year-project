@@ -1,7 +1,15 @@
-import DashboardCard from "@/app/_features/dashboard/DashboardCard";
+import BookingHeader from "@/app/_features/booking/BookingHeader";
+import BookingStats from "@/app/_features/booking/BookingStats";
+import BookingTable from "@/app/_features/booking/BookingTable";
 
 function page() {
-  return <div>thos is the booking</div>;
+  return (
+    <div className="flex flex-col gap-2 justify-center">
+      <BookingHeader />
+      <BookingTable />
+      <BookingStats />
+    </div>
+  );
 }
 
 export default page;

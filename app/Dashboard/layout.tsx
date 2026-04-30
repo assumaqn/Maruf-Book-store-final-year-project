@@ -3,13 +3,13 @@ import { DashBoardHeader } from "../_features/dashboard/DashBoardHeader";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="grid grid-cols-[16rem_1fr] min-h-screen">
+    <div className="grid grid-cols-[12rem_1fr] min-h-screen">
       <SideNavigation />
 
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col ">
         <DashBoardHeader />
 
-        <main className="flex-1 p-6 bg-gray-50">{children}</main>
+        <main className="flex-1  bg-gray-50 p-10">{children}</main>
       </div>
     </div>
   );
