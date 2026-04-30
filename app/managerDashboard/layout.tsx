@@ -11,48 +11,52 @@ import {
   MdOutlineHistory,
 } from "react-icons/md";
 import { IoCalendarOutline } from "react-icons/io5";
-import { MdFileUpload } from "react-icons/md"; // For Stock Out
+import { MdFileUpload } from "react-icons/md";
 import { ReactNode } from "react";
 
 export const navLinks: { href: string; name: string; icon: ReactNode }[] = [
-  { href: "/dashboard", name: "Dashboard", icon: <MdDashboard size={22} /> },
   {
-    href: "/dashboard/booking",
+    href: "/managerDashboard",
+    name: "Dashboard",
+    icon: <MdDashboard size={22} />,
+  },
+  {
+    href: "/managerDashboard/booking",
     name: "Booking",
     icon: <IoCalendarOutline size={22} />,
   },
   {
-    href: "/dashboard/stockin",
+    href: "/managerDashboard/stockin",
     name: "Stock In",
     icon: <MdOutlineInventory2 size={22} />,
   },
   {
-    href: "/dashboard/stockout",
+    href: "/managerDashboard/stockout",
     name: "Stock Out",
     icon: <MdFileUpload size={22} />,
   },
   {
-    href: "/dashboard/categories",
+    href: "/managerDashboard/categories",
     name: "Categories",
     icon: <MdOutlineCategory size={22} />,
   },
   {
-    href: "/dashboard/analytics",
+    href: "/managerDashboard/analytics",
     name: "Analytics",
     icon: <MdOutlineAnalytics size={22} />,
   },
   {
-    href: "/dashboard/users",
+    href: "/managerDashboard/users",
     name: "Users",
     icon: <MdOutlinePeopleAlt size={22} />,
   },
   {
-    href: "/dashboard/reports",
+    href: "/managerDashboard/reports",
     name: "Reports",
     icon: <MdOutlineAssessment size={22} />,
   },
   {
-    href: "/dashboard/logs",
+    href: "/managerDashboard/logs",
     name: "Activity Logs",
     icon: <MdOutlineHistory size={22} />,
   },
