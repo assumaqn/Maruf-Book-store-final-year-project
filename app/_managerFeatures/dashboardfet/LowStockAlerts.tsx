@@ -29,7 +29,7 @@ function LowStockAlerts() {
     <div className="w-full max-w-xl bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
       {/* Header */}
       <div className=" p-6 border-b border-slate-50">
-        <h2 className="text-lg text-gray-800">Low Stock Alerts</h2>
+        <h2 className="text-xl font-bold text-gray-900">Low Stock Alerts</h2>
       </div>
 
       {/* List items */}
@@ -41,7 +41,7 @@ function LowStockAlerts() {
           >
             <div className="flex items-center gap-4">
               {/* Book Image Placeholder */}
-              <div className="px-5 py-4 bg-slate-200 rounded-md overflow-hidden ">
+              <div className="w-12 h-14 bg-slate-200 rounded-md overflow-hidden ">
                 <img
                   src={book.image}
                   alt={book.title}
@@ -55,9 +55,9 @@ function LowStockAlerts() {
                   {book.title}
                 </h3>
                 <p className="text-sm  text-gary-700">
-                  Stock:
-                  <span className=" text-gray-500">
-                    {book.stock} units remaining
+                  Stock:{" "}
+                  <span className="text-xs text-gray-500">
+                    {book?.stock} units remaining
                   </span>
                 </p>
               </div>

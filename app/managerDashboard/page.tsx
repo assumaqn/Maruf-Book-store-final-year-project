@@ -1,5 +1,6 @@
 import LowStockAlerts from "../_managerFeatures/dashboardfet/LowStockAlerts";
 import ManagerCard from "../_managerFeatures/dashboardfet/ManagerCard";
+import RecentActivity from "../_managerFeatures/dashboardfet/RecentActivity";
 import RevenuChart from "../_managerFeatures/dashboardfet/RevenuChart";
 import ShortCutButtons from "../_managerFeatures/dashboardfet/ShortCutButtons";
 import StockChart from "../_managerFeatures/dashboardfet/StockChart";
@@ -19,7 +20,7 @@ function page() {
       </div>
       <div className="flex gap-5 justify-between">
         <LowStockAlerts />
-        <div>Activity Logs</div>
+        <RecentActivity />
       </div>
     </div>
   );
