@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Maruf Book Store ERP
 
-## Getting Started
+> A full-stack ERP system designed to simplify bookstore operations, inventory management, sales, and reporting.
 
-First, run the development server:
+![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/API-Express.js-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Styling-Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Maruf Book Store ERP** is a web-based ERP system developed as a **Final Year Project**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+It helps bookstore managers and staff manage books, inventory, sales, stock movements, users, and reports from one centralized platform.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Objectives
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Reduce manual record keeping
+- Improve inventory accuracy
+- Track stock-in and stock-out transactions
+- Monitor sales and revenue
+- Provide low-stock alerts
+- Improve operational visibility
+- Support better management decisions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📚 Book Management
+- Add, edit, and delete books
+- Manage book categories
+- Manage book images, prices, and quantities
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📦 Inventory Management
+- Track available stock
+- Record stock-in and stock-out
+- Track inventory changes
+- Monitor low-stock books
+
+### 💰 Sales Management
+- Record book sales
+- Track sold quantities
+- Monitor sales revenue
+
+### 👥 User & Role Management
+- Manager and staff roles
+- Role-based access
+- Activity tracking
+
+### 📊 Dashboard & Reports
+- Inventory overview
+- Sales information
+- Stock movement
+- Management reports
+
+### 📝 Activity Logs
+- Track important system activities
+- Record actions performed by users
+
+---
+
+## 🏗️ Architecture
+
+```text
+Frontend
+React.js + Tailwind CSS
+        │
+        │ REST API
+        ▼
+Backend
+Node.js + Express.js
+        │
+        │
+        ▼
+Database
+MongoDB
